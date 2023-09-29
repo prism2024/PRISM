@@ -14,5 +14,5 @@ The directory [benchmarks](./benchmarks) contains all benchmarks used in our eva
 * [rq2_patchsim.csv](./rq2_patchsim.csv): (RQ2) Figure 4. The performance of PatchSIM under the different threshold
 
 ## Source code
-We currently provide only the source codes of our tool as a Anonymous GitHub repository: [link](todo)
+We currently provide only the source codes of our tool as a Anonymous GitHub repository: [link](https://anonymous.4open.science/r/PRISM_analyzer-923D/README.md)
 We will prepare the complete artifact including instructions for installition, scripts for reprocuding the results, etc., as soon as possible.
