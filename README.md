@@ -10,7 +10,8 @@ The directory [benchmarks](./benchmarks) contains all benchmarks used in our eva
 ## Data for figures and tables in the paper.
 * [rq1.csv](./rq1.csv): (RQ1) Table 2. End-to-end repair performance of TBar with APCC
 * [rq2.csv](./rq2.csv): (RQ2) Table 3. Performance of each APCC on large data set
-* [rq2_threshold.csv](./rq2_threshold.csv): (RQ2) Figure 4. The change of CPR and IDR under the different threshold
+* [rq2_ods.csv](./rq2_ods.csv): (RQ2) Figure 4. The performance of ODS under the different threshold
+* [rq2_patchsim.csv](./rq2_patchsim.csv): (RQ2) Figure 4. The performance of PatchSIM under the different threshold
 
 ## Source code
 We currently provide only the source codes of our tool as a Anonymous GitHub repository: [link](todo)
