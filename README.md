@@ -13,5 +13,5 @@ The directory [benchmarks](./benchmarks) contains all benchmarks used in our eva
 * [rq2_threshold.csv](./rq2_threshold.csv): (RQ2) Figure 4. The change of CPR and IDR under the different threshold
 
 ## Source code
-We currently provide only the source codes of our tool as a Anonymous GitHub repository: [link](https://anonymous.4open.science/r/Sprint-analyzer-6F4D/)
+We currently provide only the source codes of our tool as a Anonymous GitHub repository: [link](todo)
 We will prepare the complete artifact including instructions for installition, scripts for reprocuding the results, etc., as soon as possible.
