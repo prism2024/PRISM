@@ -1,0 +1,14 @@
+diff -r -u -w Math63b/src/main/java/org/apache/commons/math/util/MathUtils.java Math63f/src/main/java/org/apache/commons/math/util/MathUtils.java
+--- Math63b/src/main/java/org/apache/commons/math/util/MathUtils.java	2022-08-09 16:48:55.354501613 +0900
++++ Math63f/src/main/java/org/apache/commons/math/util/MathUtils.java	2022-08-09 16:48:48.262691556 +0900
+@@ -414,7 +414,8 @@
+      * @return {@code true} if the values are equal.
+      */
+     public static boolean equals(double x, double y) {
+-        return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
++        return (
++        (((((NAN_GAP) & 1) == 0) && (((NAN_GAP) & 1) == 0)) && ((NAN_GAP) < 31)) && (java.lang.Double.isNaN(y))) || (x == y);
+     }
+ 
+     /**
+
