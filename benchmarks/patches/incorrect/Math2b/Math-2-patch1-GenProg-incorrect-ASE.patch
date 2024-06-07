@@ -1,0 +1,20 @@
+--- Math2b/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java	2021-11-24 11:19:12.278447188 +0900
++++ Math2f/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java	2021-11-24 11:20:08.303312923 +0900
+@@ -135,7 +135,6 @@
+             k = 1.0 / k;
+             tmp = mu + k * sigma;
+             if (tmp < upper) {
+-                upper = ((int) Math.ceil(tmp)) - 1;
+             }
+         }
+ 
+--- Math2b/src/main/java/org/apache/commons/math3/ml/clustering/FuzzyKMeansClusterer.java	2021-11-24 11:19:12.298447496 +0900
++++ Math2f/src/main/java/org/apache/commons/math3/ml/clustering/FuzzyKMeansClusterer.java	2021-11-24 11:20:55.308039310 +0900
+@@ -154,6 +154,7 @@
+ 
+         this.membershipMatrix = null;
+         this.points = null;
++        boolean emptyCluster = false;
+         this.clusters = null;
+     }
+ 
