@@ -1,6 +1,5 @@
 # PRISM
-This repository contains the source codes for PRISM and experimental data to support the claims in the paper "Accurate Detection of Overfitting Patches in Automated Program
-  Repair through Semantic Anti-Patterns".
+This repository contains the source codes for PRISM and experimental data to support the claims in the paper "PRISM: A Semantic-Based Approach for Accurately Identifying Overfitted Patches in Automatic Program Repair".
 
 ## Benchmarks
 The directory [benchmarks](./benchmarks) contains all benchmarks used in our evaluation.
