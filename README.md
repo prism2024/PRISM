@@ -19,5 +19,5 @@ The directory [results](./results) contains all patch classification results of 
 * [RQ3](./results/rq3): ablation study with four settings: [PRISM(Syn)](./results/rq3/ours_syn.csv), [PRISM(Sem)](./results/rq3/ours_sem.csv), [RF(Sem)](./results/rq3/rf_sem.csv), and [RF+(Sem)](./results/rq3/rf+_sem.csv)
 
 ## Source code
-We currently provide only the source codes of our tool as a Anonymous GitHub repository: [link](https://anonymous.4open.science/r/PRISM_analyzer-923D/)
+We currently provide only the source codes of our tool as a Anonymous GitHub repository: [link](https://anonymous.4open.science/r/PRISM_analyzer-6963)
 We will prepare the complete artifact including instructions for installition, scripts for reprocuding the results, etc., as soon as possible.
